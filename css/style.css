@@ -517,20 +517,20 @@ h3 {
   padding-right: 30px;
 }
 
-.sermons_slider .owl-dots {
+/**.sermons_slider .owl-dots {
   text-align: right;
   position: absolute;
   right: 290px;
   bottom: 0;
-}
+}**/
 
-.sermons_slider .owl-dots .owl-dot {
+/**.sermons_slider .owl-dots .owl-dot {
   width: 14px;
   height: 14px;
   background: #eeeeee;
   display: inline-block;
   margin: 0px 5px;
-}
+}**/
 
 .sermons_slider .owl-dots .owl-dot.active {
   background: rgb(255, 241, 48);
@@ -705,7 +705,7 @@ h3 {
 /*============ banner_area css =============*/
 .banner_area {
   min-height: 680px;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(2, 2, 2, 0.2)), to(rgba(121, 121, 121, 0.4))), url("../image/banner.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(2, 2, 2, 0.2)), to(rgba(121, 121, 121, 0.4))), url("");
   /*background: -webkit-linear-gradient(left, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)), url("../image/banner.jpg");*/
   /*background: -o-linear-gradient(left, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)), url("../image/banner.jpg");*/
   /*background: linear-gradient(to right, rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8)), url("../image/banner.jpg");*/
@@ -3492,7 +3492,7 @@ h1, h2, h3, h4, h5, h6 {
 /*----------------------------------------------------*/
 /*============== footer-area css ===============*/
 .footer-area {
-  background: #04091e;
+  background:rgb(255, 241, 48) ;
   padding: 142px 0px;
 }
 
@@ -3597,7 +3597,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-bottom .footer-text a {
-  color: #00c8e6;
+  color: rgb(165, 157, 49);
 }
 
 .footer-bottom .footer-social {
@@ -3615,7 +3615,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-bottom .footer-social a:hover {
-  color: #00c8e6;
+  color: red;
 }
 
 /*---------------------------------------------------- */

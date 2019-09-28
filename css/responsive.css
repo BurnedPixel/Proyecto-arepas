@@ -58,13 +58,16 @@
 	}
     .header_area + section {
         margin-top: 91px;
+        background-image: url('../image/sku.jpg') !important;
+        background-size: cover;
+        z-index: 1;
     }
     .navbar .container{
         padding-left: 15px;
         padding-right: 15px;
     }
     .nav{
-        background: rgb(255, 241, 48);
+        background: rgb(243, 229, 34);
         padding: 0px 15px;
     }
     .header_top .nav{
@@ -108,6 +111,13 @@
     .blog_banner .banner_content{
         margin: 200px 0px 120px;
     }
+    .banner_content *{
+        color: rgb(68, 68, 53);
+        z-index: 2;
+        font-weight: bold;
+        background: rgba(248, 248, 248, 0.4);
+        border-radius: 40px;
+    }
     .categories_post img{
         width: 100%;
     }
@@ -126,7 +136,10 @@
 	}
 	.header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
 		padding: 0px 15px;
-	}
+    }
+    .btn_hover:hover{
+        background: rgb(255, 230, 0);
+    }
 }
 @media (max-width:767px){
     .banner_content h1{
