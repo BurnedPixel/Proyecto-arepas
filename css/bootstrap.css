@@ -108,9 +108,6 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
-@-ms-viewport {
-  width: device-width;
-}
 
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
@@ -6135,7 +6132,6 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 .justify-content-around {
-  -ms-flex-pack: distribute !important;
       justify-content: space-around !important;
 }
 
@@ -6270,7 +6266,6 @@ a.bg-dark:focus, a.bg-dark:hover {
         justify-content: space-between !important;
   }
   .justify-content-sm-around {
-    -ms-flex-pack: distribute !important;
         justify-content: space-around !important;
   }
   .align-items-sm-start {
@@ -6389,7 +6384,6 @@ a.bg-dark:focus, a.bg-dark:hover {
         justify-content: space-between !important;
   }
   .justify-content-md-around {
-    -ms-flex-pack: distribute !important;
         justify-content: space-around !important;
   }
   .align-items-md-start {
@@ -6508,7 +6502,6 @@ a.bg-dark:focus, a.bg-dark:hover {
         justify-content: space-between !important;
   }
   .justify-content-lg-around {
-    -ms-flex-pack: distribute !important;
         justify-content: space-around !important;
   }
   .align-items-lg-start {
@@ -6627,7 +6620,6 @@ a.bg-dark:focus, a.bg-dark:hover {
         justify-content: space-between !important;
   }
   .justify-content-xl-around {
-    -ms-flex-pack: distribute !important;
         justify-content: space-around !important;
   }
   .align-items-xl-start {

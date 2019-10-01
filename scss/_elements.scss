@@ -413,7 +413,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .genric-btn.arrow {
-  display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
@@ -594,7 +593,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .genric-btn.disable {
-  color: #222222, 0.3;
+  color: #222222;
   background: #f9f9ff;
   border: 1px solid transparent;
   cursor: not-allowed;

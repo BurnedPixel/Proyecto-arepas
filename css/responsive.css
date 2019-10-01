@@ -112,10 +112,8 @@
         margin: 200px 0px 120px;
     }
     .banner_content *{
-        color: rgb(68, 68, 53);
         z-index: 2;
         font-weight: bold;
-        background: rgba(248, 248, 248, 0.4);
         border-radius: 40px;
     }
     .categories_post img{
