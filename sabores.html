@@ -16,6 +16,8 @@
         <!-- main css -->
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/sweetalert2.min.css">
     </head>
     <body>
         <!--================Header Area =================-->
@@ -33,6 +35,7 @@
                                             <table id="lista-carrito" class="table">
                                                 <thead>
                                                     <tr>
+                                                        <th>Fotorepa</th>
                                                         <th>Nombre</th>
                                                         <th>Precio</th>
                                                         <th></th>
@@ -92,7 +95,7 @@
                             <div style="height: 50%"><img src="image/reinapepiada.jpg" alt=""></div>
                             <div style="justify-content: space-between; display: flex;"><h2 class="event_title">Reina Pepiada</h2><h4 style="margin-top:24px">5 $</h4></div>
                             <div style="height: 25%"><p>Esta arepa se elabora en honor a la reina Susan Duim. Rellena con nsalada de gallina o pollo, mayonesa y aguacate.</p></div>
-                            <div><a href="" class="btn_hover">Comprar</a></div>
+                            <div><a href="" class="btn_hover agregar-carrito" data-id="1">Comprar</a></div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6" style="height: 450px; margin-bottom: 40px">
@@ -100,7 +103,7 @@
                             <div style="height: 50%"><img src="image/arepa-2.jpg" alt=""></div>
                             <div style="justify-content: space-between; display: flex;"><h2 class="event_title">la Catira</h2><h4 style="margin-top:24px">5 $</h4></div>
                             <div style="height: 25%"><p>Pollo y queso amarillo.</p></div>
-                            <div><a href="" class="btn_hover">Comprar</a></div>
+                            <div><a href="" class="btn_hover agregar-carrito" data-id="2">Comprar</a></div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6" style="height: 450px; margin-bottom: 40px">
@@ -108,7 +111,7 @@
                             <div style="height: 50%"><img src="image/domino.jpg" alt=""></div>                            
                             <div style="justify-content: space-between; display: flex;"><h2 class="event_title">Dominó</h2><h4 style="margin-top:24px">5 $</h4></div>
                             <div style="height: 25%"><p>caraotas negras y queso blanco.</p></div>
-                            <div ><a href="" class="btn_hover">Comprar</a></div>
+                            <div ><a href="" class="btn_hover agregar-carrito" data-id="3">Comprar</a></div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6" style="height: 450px; margin-bottom: 40px">
@@ -116,7 +119,7 @@
                             <div style="height: 50%"><img src="image/pelua.jpg" alt=""></div>
                             <div style="justify-content: space-between; display: flex;"><h2 class="event_title">Pelua</h2><h4 style="margin-top:24px">5 $</h4></div>
                             <div style="height: 25%"><p>Rellena de carne mechada y queso amarillo.</p></div>
-                            <div ><a href="" class="btn_hover">Comprar</a></div>
+                            <div ><a href="" class="btn_hover agregar-carrito" data-id="4">Comprar</a></div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6" style="height: 450px; margin-bottom: 40px">
@@ -124,7 +127,7 @@
                             <div style="height: 50%"><img src="image/llanera.jpg" alt=""></div>
                             <div style="justify-content: space-between; display: flex;"><h2 class="event_title">Llanera</h2><h4 style="margin-top:24px">5 $</h4></div>
                             <div style="height: 25%"><p>Rellena con carne cortada muy finita, tomate en rodajas, aguacate y queso guayanés.</p></div>
-                            <div ><a href="" class="btn_hover">Comprar</a></div>
+                            <div ><a href="" class="btn_hover agregar-carrito" data-id="5">Comprar</a></div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6" style="height: 450px; margin-bottom: 40px">
@@ -132,7 +135,7 @@
                             <div style="height: 50%"><img src="image/arepa-4.jpg" alt=""></div>
                             <div style="justify-content: space-between; display: flex;"><h2 class="event_title">Sifrina</h2><h4 style="margin-top:24px">5 $</h4></div>
                             <div style="height: 25%"><p>Igual que la Reina Pepeada, pero con queso amarillo rallado.</p></div>
-                            <div ><a href="" class="btn_hover">Comprar</a></div>
+                            <div ><a href="" class="btn_hover agregar-carrito" data-id="6">Comprar</a></div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6" style="height: 450px; margin-bottom: 40px">
@@ -140,7 +143,7 @@
                             <div style="height: 50%"><img src="image/pabellon.jpg" alt=""></div>
                             <div style="justify-content: space-between; display: flex;"><h2 class="event_title">Pabellón</h2><h4 style="margin-top:24px">5 $</h4></div>
                             <div style="height: 25%"><p>Rellena de tajadas, caraotas y carne mechada.</p></div>
-                            <div><a href="" class="btn_hover">Comprar</a></div>
+                            <div><a href="" class="btn_hover agregar-carrito" data-id="7">Comprar</a></div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6" style="height: 450px; margin-bottom: 40px">
@@ -148,7 +151,7 @@
                             <div style="height: 50%"><img src="image/patapata.jpg" alt=""></div>
                             <div style="justify-content: space-between; display: flex;"><h2 class="event_title">Patapata</h2><h4 style="margin-top:24px">5 $</h4></div>
                             <div style="height: 25%"><p>Rellena con queso amarillo, caraotas negras y aguacate en lonjas.</p></div>
-                            <div ><a href="" class="btn_hover">Comprar</a></div>
+                            <div ><a href="" class="btn_hover agregar-carrito" data-id="8">Comprar</a></div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6" style="height: 450px; margin-bottom: 40px">
@@ -156,7 +159,7 @@
                             <div style="height: 50%"><img src="image/tumbarancho.jpg" alt=""></div>                           
                             <div style="justify-content: space-between; display: flex;"><h2 class="event_title">Tumbarancho</h2><h4 style="margin-top:24px">5 $</h4></div>
                             <div style="height: 25%"><p>Rellena con una rodaja de mortadela. Luego se cierra, se pasa por harina y huevo, y se fríe en aceite. Finalmente, la arepa rebozada se rellena con queso de mano, tomate y salsa rosada</p></div>
-                            <div ><a href="" class="btn_hover">Comprar</a></div>
+                            <div ><a href="" class="btn_hover agregar-carrito" data-id="9">Comprar</a></div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6" style="height: 450px; margin-bottom: 40px">
@@ -164,7 +167,7 @@
                             <div style="height: 50%"><img src="image/arepa-7.jpg" alt=""></div>
                             <div style="justify-content: space-between; display: flex;"><h2 class="event_title">Perico</h2><h4 style="margin-top:24px">5 $</h4></div>
                             <div style="height: 25%"><p>Revoltillo de huevos, cebollas, tomates y sal.</p></div>
-                            <div ><a href="" class="btn_hover">Comprar</a></div>
+                            <div ><a href="" class="btn_hover agregar-carrito" data-id="10">Comprar</a></div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6" style="height: 450px; margin-bottom: 40px">
@@ -172,7 +175,7 @@
                             <div style="height: 50%"><img src="image/rompecolchon.jpg" alt=""></div>
                             <div style="justify-content: space-between; display: flex;"><h2 class="event_title">Rompe colchon</h2><h4 style="margin-top:24px">5 $</h4></div>
                             <div style="height: 25%"><p>Mezcla de varios mariscos a la vinagreta.</p></div>
-                            <div ><a href="" class="btn_hover">Comprar</a></div>
+                            <div ><a href="" class="btn_hover agregar-carrito" data-id="11">Comprar</a></div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6" style="height: 450px; margin-bottom: 40px">
@@ -180,7 +183,7 @@
                             <div style="height: 50%"><img src="image/rumbera.jpg" alt=""></div>
                             <div style="justify-content: space-between; display: flex;"><h2 class="event_title">Rumbera</h2><h4 style="margin-top:24px">5 $</h4></div>
                             <div style="height: 25%"><p>Pernil horneado y queso amarillo rallado</p></div>
-                            <div ><a href="" class="btn_hover">Comprar</a></div>
+                            <div ><a href="" class="btn_hover agregar-carrito" data-id="12">Comprar</a></div>
                         </div>
                     </div>
                 </div>
@@ -268,5 +271,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
         <script src="js/stellar.js"></script>
         <script src="js/custom.js"></script>
+        <script src="js/carrito.js"></script>
+        <script src="js/pedido.js"></script>
     </body>
 </html>
