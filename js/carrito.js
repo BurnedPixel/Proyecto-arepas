@@ -25,12 +25,13 @@ class Carrito {
     insertarCarrito(producto){
         const row = document.createElement('tr');
         row.innerHTML = `
-        <td><img src="${producto.imagen}" width=100></td>
+        <td><img src="${producto.imagen}" width=100></td> 
         <td>${producto.titulo}</td>
         <td>${producto.precio}</td>        
         <td><a href="#" class="borrar-producto fas fa-times-circle" data-id="${producto.titulo}"></a></td>
         `;
         listaProductos.appendChild(row);
+        this.guardarProductosLocalStorage(producto);
     }
 
     eliminarProducto(e){
@@ -49,6 +50,25 @@ class Carrito {
             listaProductos.removeChild(listaProductos.firstChild);
         }
         return false;
+    }
+
+    guardarProductosLocalStorage(producto){
+        let productos;
+        productos = this.obtenerProductosLocalStorage();
+        productos.push(producto);
+        localStorage.setItem('productos', JSON.stringify(productos));
+    }
+
+    obtenerProductosLocalStorage(){
+        let productoLS;
+
+        if(localStorage.getItem('productos') === null){
+            productoLS = [];
+        }
+        else{
+            productoLS = JSON.parse(localStorage.getItem('productos'));
+        }
+        return productoLS; 
     }
 
 }  
